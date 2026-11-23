@@ -3,7 +3,7 @@ const routes = [
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('/@/pages/HomePage.vue') },
+      { path: '', component: () => import('/.renata7@/pages/HomePage.vue') },
       { path: 'prijava', component: () => import('pages/LoginPage.vue') },
       { path: 'registracija', component: () => import('pages/RegisterPage.vue') },
       { path: 'opazanja', component: () => import('pages/ObservationsPage.vue') },
